@@ -49,138 +49,184 @@
             // TxtBal1
             // 
             this.TxtBal1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtBal1.Location = new System.Drawing.Point(12, 12);
+            this.TxtBal1.Location = new System.Drawing.Point(18, 18);
+            this.TxtBal1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TxtBal1.MaxLength = 16;
             this.TxtBal1.Name = "TxtBal1";
-            this.TxtBal1.Size = new System.Drawing.Size(161, 29);
+            this.TxtBal1.Size = new System.Drawing.Size(240, 40);
             this.TxtBal1.TabIndex = 0;
+            this.TxtBal1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtBal3
             // 
             this.TxtBal3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtBal3.Location = new System.Drawing.Point(12, 47);
+            this.TxtBal3.Location = new System.Drawing.Point(18, 72);
+            this.TxtBal3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TxtBal3.MaxLength = 16;
             this.TxtBal3.Name = "TxtBal3";
-            this.TxtBal3.Size = new System.Drawing.Size(161, 29);
-            this.TxtBal3.TabIndex = 1;
+            this.TxtBal3.Size = new System.Drawing.Size(240, 40);
+            this.TxtBal3.TabIndex = 2;
+            this.TxtBal3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtBal2
             // 
             this.TxtBal2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtBal2.Location = new System.Drawing.Point(179, 12);
+            this.TxtBal2.Location = new System.Drawing.Point(268, 18);
+            this.TxtBal2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TxtBal2.MaxLength = 16;
             this.TxtBal2.Name = "TxtBal2";
-            this.TxtBal2.Size = new System.Drawing.Size(161, 29);
-            this.TxtBal2.TabIndex = 2;
+            this.TxtBal2.Size = new System.Drawing.Size(240, 40);
+            this.TxtBal2.TabIndex = 1;
+            this.TxtBal2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtBal4
             // 
             this.TxtBal4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtBal4.Location = new System.Drawing.Point(179, 47);
+            this.TxtBal4.Location = new System.Drawing.Point(268, 72);
+            this.TxtBal4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TxtBal4.MaxLength = 16;
             this.TxtBal4.Name = "TxtBal4";
-            this.TxtBal4.Size = new System.Drawing.Size(161, 29);
+            this.TxtBal4.Size = new System.Drawing.Size(240, 40);
             this.TxtBal4.TabIndex = 3;
+            this.TxtBal4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtBal8
             // 
             this.TxtBal8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtBal8.Location = new System.Drawing.Point(179, 117);
+            this.TxtBal8.Location = new System.Drawing.Point(268, 180);
+            this.TxtBal8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TxtBal8.MaxLength = 16;
             this.TxtBal8.Name = "TxtBal8";
-            this.TxtBal8.Size = new System.Drawing.Size(161, 29);
+            this.TxtBal8.Size = new System.Drawing.Size(240, 40);
             this.TxtBal8.TabIndex = 7;
+            this.TxtBal8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtBal6
             // 
             this.TxtBal6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtBal6.Location = new System.Drawing.Point(179, 82);
+            this.TxtBal6.Location = new System.Drawing.Point(268, 126);
+            this.TxtBal6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TxtBal6.MaxLength = 16;
             this.TxtBal6.Name = "TxtBal6";
-            this.TxtBal6.Size = new System.Drawing.Size(161, 29);
-            this.TxtBal6.TabIndex = 6;
+            this.TxtBal6.Size = new System.Drawing.Size(240, 40);
+            this.TxtBal6.TabIndex = 5;
+            this.TxtBal6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtBal7
             // 
             this.TxtBal7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtBal7.Location = new System.Drawing.Point(12, 117);
+            this.TxtBal7.Location = new System.Drawing.Point(18, 180);
+            this.TxtBal7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TxtBal7.MaxLength = 16;
             this.TxtBal7.Name = "TxtBal7";
-            this.TxtBal7.Size = new System.Drawing.Size(161, 29);
-            this.TxtBal7.TabIndex = 5;
+            this.TxtBal7.Size = new System.Drawing.Size(240, 40);
+            this.TxtBal7.TabIndex = 6;
+            this.TxtBal7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtBal5
             // 
             this.TxtBal5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtBal5.Location = new System.Drawing.Point(12, 82);
+            this.TxtBal5.Location = new System.Drawing.Point(18, 126);
+            this.TxtBal5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TxtBal5.MaxLength = 16;
             this.TxtBal5.Name = "TxtBal5";
-            this.TxtBal5.Size = new System.Drawing.Size(161, 29);
+            this.TxtBal5.Size = new System.Drawing.Size(240, 40);
             this.TxtBal5.TabIndex = 4;
+            this.TxtBal5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtBal12
             // 
             this.TxtBal12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtBal12.Location = new System.Drawing.Point(179, 187);
+            this.TxtBal12.Location = new System.Drawing.Point(268, 288);
+            this.TxtBal12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TxtBal12.MaxLength = 16;
             this.TxtBal12.Name = "TxtBal12";
-            this.TxtBal12.Size = new System.Drawing.Size(161, 29);
+            this.TxtBal12.Size = new System.Drawing.Size(240, 40);
             this.TxtBal12.TabIndex = 11;
+            this.TxtBal12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtBal10
             // 
             this.TxtBal10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtBal10.Location = new System.Drawing.Point(179, 152);
+            this.TxtBal10.Location = new System.Drawing.Point(268, 234);
+            this.TxtBal10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TxtBal10.MaxLength = 16;
             this.TxtBal10.Name = "TxtBal10";
-            this.TxtBal10.Size = new System.Drawing.Size(161, 29);
-            this.TxtBal10.TabIndex = 10;
+            this.TxtBal10.Size = new System.Drawing.Size(240, 40);
+            this.TxtBal10.TabIndex = 9;
+            this.TxtBal10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtBal11
             // 
             this.TxtBal11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtBal11.Location = new System.Drawing.Point(12, 187);
+            this.TxtBal11.Location = new System.Drawing.Point(18, 288);
+            this.TxtBal11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TxtBal11.MaxLength = 16;
             this.TxtBal11.Name = "TxtBal11";
-            this.TxtBal11.Size = new System.Drawing.Size(161, 29);
-            this.TxtBal11.TabIndex = 9;
+            this.TxtBal11.Size = new System.Drawing.Size(240, 40);
+            this.TxtBal11.TabIndex = 10;
+            this.TxtBal11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtBal9
             // 
             this.TxtBal9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtBal9.Location = new System.Drawing.Point(12, 152);
+            this.TxtBal9.Location = new System.Drawing.Point(18, 234);
+            this.TxtBal9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TxtBal9.MaxLength = 16;
             this.TxtBal9.Name = "TxtBal9";
-            this.TxtBal9.Size = new System.Drawing.Size(161, 29);
+            this.TxtBal9.Size = new System.Drawing.Size(240, 40);
             this.TxtBal9.TabIndex = 8;
+            this.TxtBal9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtBal14
             // 
             this.TxtBal14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtBal14.Location = new System.Drawing.Point(179, 222);
+            this.TxtBal14.Location = new System.Drawing.Point(268, 342);
+            this.TxtBal14.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TxtBal14.MaxLength = 16;
             this.TxtBal14.Name = "TxtBal14";
-            this.TxtBal14.Size = new System.Drawing.Size(161, 29);
-            this.TxtBal14.TabIndex = 14;
+            this.TxtBal14.Size = new System.Drawing.Size(240, 40);
+            this.TxtBal14.TabIndex = 13;
+            this.TxtBal14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TxtBal13
             // 
             this.TxtBal13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtBal13.Location = new System.Drawing.Point(12, 222);
+            this.TxtBal13.Location = new System.Drawing.Point(18, 342);
+            this.TxtBal13.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TxtBal13.MaxLength = 16;
             this.TxtBal13.Name = "TxtBal13";
-            this.TxtBal13.Size = new System.Drawing.Size(161, 29);
+            this.TxtBal13.Size = new System.Drawing.Size(240, 40);
             this.TxtBal13.TabIndex = 12;
+            this.TxtBal13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // BtnPrint
             // 
-            this.BtnPrint.Location = new System.Drawing.Point(179, 269);
+            this.BtnPrint.Location = new System.Drawing.Point(268, 414);
+            this.BtnPrint.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnPrint.Name = "BtnPrint";
-            this.BtnPrint.Size = new System.Drawing.Size(75, 23);
-            this.BtnPrint.TabIndex = 15;
+            this.BtnPrint.Size = new System.Drawing.Size(112, 35);
+            this.BtnPrint.TabIndex = 14;
             this.BtnPrint.Text = "Imprimer";
             this.BtnPrint.UseVisualStyleBackColor = true;
+            this.BtnPrint.Click += new System.EventHandler(this.BtnPrint_Click);
             // 
             // BtnQuit
             // 
-            this.BtnQuit.Location = new System.Drawing.Point(264, 269);
+            this.BtnQuit.Location = new System.Drawing.Point(396, 414);
+            this.BtnQuit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnQuit.Name = "BtnQuit";
-            this.BtnQuit.Size = new System.Drawing.Size(75, 23);
-            this.BtnQuit.TabIndex = 16;
+            this.BtnQuit.Size = new System.Drawing.Size(112, 35);
+            this.BtnQuit.TabIndex = 15;
             this.BtnQuit.Text = "Quitter";
             this.BtnQuit.UseVisualStyleBackColor = true;
+            this.BtnQuit.Click += new System.EventHandler(this.BtnQuit_Click);
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(351, 304);
+            this.ClientSize = new System.Drawing.Size(526, 468);
             this.Controls.Add(this.BtnQuit);
             this.Controls.Add(this.BtnPrint);
             this.Controls.Add(this.TxtBal14);
@@ -198,9 +244,11 @@
             this.Controls.Add(this.TxtBal3);
             this.Controls.Add(this.TxtBal1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hifi Balises";
             this.ResumeLayout(false);
             this.PerformLayout();

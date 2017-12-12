@@ -16,5 +16,20 @@ namespace HifiBalises
         {
             InitializeComponent();
         }
+
+        private void BtnQuit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void BtnPrint_Click(object sender, EventArgs e)
+        {
+            Print();
+        }
+
+        private void Print()
+        {
+
+        }
     }
 }
