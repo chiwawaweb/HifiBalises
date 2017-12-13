@@ -29,7 +29,24 @@ namespace HifiBalises
 
         private void Print()
         {
+            /* Mise en forme */
+            string bal1 = TxtBal1.Text.ToUpper();
+            string bal2 = TxtBal2.Text.ToUpper();
+            string bal3 = TxtBal3.Text.ToUpper();
+            string bal4 = TxtBal4.Text.ToUpper();
+            string bal5 = TxtBal5.Text.ToUpper();
+            string bal6 = TxtBal6.Text.ToUpper();
+            string bal7 = TxtBal7.Text.ToUpper();
+            string bal8 = TxtBal8.Text.ToUpper();
+            string bal9 = TxtBal9.Text.ToUpper();
+            string bal10 = TxtBal10.Text.ToUpper();
+            string bal11 = TxtBal11.Text.ToUpper();
+            string bal12 = TxtBal12.Text.ToUpper();
+            string bal13 = TxtBal13.Text.ToUpper();
+            string bal14 = TxtBal14.Text.ToUpper();
 
+            PDF frm = new PDF(bal1, bal2, bal3, bal4, bal5, bal6, bal7, bal8, bal9, bal10, bal11, bal12, bal13, bal14);
+            frm.ShowDialog();
         }
     }
 }
