@@ -9,12 +9,10 @@ namespace HifiBalises
 {
     public class ITextEvents : PdfPageEventHelper
     {
-        private float[] widthRepartition;
-        private int fontSize, tabWidth;
         private string balise1, balise2, balise3, balise4, balise5, balise6, balise7, balise8, balise9, balise10, balise11, balise12, balise13, balise14;
 
         PdfContentByte cb;
-        BaseFont fontHelvetN, fontHelvetB, fontCourierN, fontCourierB, fontCourierTitle = null;
+        BaseFont fontHelvetN, fontHelvetB = null;
 
         public ITextEvents(string bal1, string bal2, string bal3, string bal4,
             string bal5, string bal6, string bal7, string bal8, string bal9,
@@ -60,7 +58,6 @@ namespace HifiBalises
                 fontHelvetN = BaseFont.CreateFont(BaseFont.HELVETICA, BaseFont.CP1252, BaseFont.NOT_EMBEDDED);
                 fontHelvetB = BaseFont.CreateFont(BaseFont.HELVETICA_BOLD, BaseFont.CP1252, BaseFont.NOT_EMBEDDED);
 
-
                 cb = writer.DirectContent;
             }
             catch (DocumentException de) { }
@@ -72,20 +69,22 @@ namespace HifiBalises
             base.OnEndPage(writer, document);
            
 
-            cb.SetFontAndSize(fontHelvetB, 20);
+            cb.SetFontAndSize(fontHelvetB, 22);
 
-            int posXG = 130;
-            int posXD = 450;
-            int posY1 = 800;
-            int posY2 = 700;
-            int posY3 = 600;
-            int posY4 = 500;
-            int posY5 = 210;
-            int posY6 = 130;
-            int posY7 = 50;
+            int posXG = 162;
+            int posXD = 432;
 
-            balise1 = balise2 = balise3 = balise4 = balise5 = balise6 = balise7 = balise8 = balise9 = balise10 =
-                balise11 = balise12 = balise13 = balise14 = "XXXXXXXXXX";
+            int posY1 = 750;
+            int posY2 = 638;
+            int posY3 = 525;
+            int posY4 = 410;
+            int posY5 = 300;
+            int posY6 = 187;
+            int posY7 = 75;
+
+            /*balise1 = balise2 = balise3 = balise4 = balise5 = balise6 = balise7 = balise8 = balise9 = balise10 =
+                balise11 = balise12 = balise13 = balise14 = "SAMSUNGSAMSUNG";
+                */
 
             cb.BeginText();
             cb.ShowTextAligned(PdfContentByte.ALIGN_CENTER, balise1, posXG, posY1, 0);

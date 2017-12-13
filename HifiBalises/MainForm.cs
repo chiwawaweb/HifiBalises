@@ -48,5 +48,25 @@ namespace HifiBalises
             PDF frm = new PDF(bal1, bal2, bal3, bal4, bal5, bal6, bal7, bal8, bal9, bal10, bal11, bal12, bal13, bal14);
             frm.ShowDialog();
         }
+
+        private void BtnReset_Click(object sender, EventArgs e)
+        {
+            TxtBal1.Text = "";
+            TxtBal2.Text = "";
+            TxtBal3.Text = "";
+            TxtBal4.Text = "";
+            TxtBal5.Text = "";
+            TxtBal6.Text = "";
+            TxtBal7.Text = "";
+            TxtBal8.Text = "";
+            TxtBal9.Text = "";
+            TxtBal10.Text = "";
+            TxtBal11.Text = "";
+            TxtBal12.Text = "";
+            TxtBal13.Text = "";
+            TxtBal14.Text = "";
+
+            TxtBal1.Focus();
+        }
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.TxtBal1 = new System.Windows.Forms.TextBox();
             this.TxtBal3 = new System.Windows.Forms.TextBox();
             this.TxtBal2 = new System.Windows.Forms.TextBox();
@@ -44,6 +45,7 @@
             this.TxtBal13 = new System.Windows.Forms.TextBox();
             this.BtnPrint = new System.Windows.Forms.Button();
             this.BtnQuit = new System.Windows.Forms.Button();
+            this.BtnReset = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // TxtBal1
@@ -206,11 +208,22 @@
             this.BtnQuit.UseVisualStyleBackColor = true;
             this.BtnQuit.Click += new System.EventHandler(this.BtnQuit_Click);
             // 
+            // BtnReset
+            // 
+            this.BtnReset.Location = new System.Drawing.Point(12, 269);
+            this.BtnReset.Name = "BtnReset";
+            this.BtnReset.Size = new System.Drawing.Size(75, 23);
+            this.BtnReset.TabIndex = 16;
+            this.BtnReset.Text = "Reset";
+            this.BtnReset.UseVisualStyleBackColor = true;
+            this.BtnReset.Click += new System.EventHandler(this.BtnReset_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(351, 304);
+            this.Controls.Add(this.BtnReset);
             this.Controls.Add(this.BtnQuit);
             this.Controls.Add(this.BtnPrint);
             this.Controls.Add(this.TxtBal14);
@@ -228,10 +241,10 @@
             this.Controls.Add(this.TxtBal3);
             this.Controls.Add(this.TxtBal1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "MainForm";
-            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hifi Balises";
             this.ResumeLayout(false);
@@ -257,6 +270,7 @@
         private System.Windows.Forms.TextBox TxtBal13;
         private System.Windows.Forms.Button BtnPrint;
         private System.Windows.Forms.Button BtnQuit;
+        private System.Windows.Forms.Button BtnReset;
     }
 }
 
