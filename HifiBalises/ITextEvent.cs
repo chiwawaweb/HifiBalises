@@ -32,7 +32,6 @@ namespace HifiBalises
             balise12 = bal12;
             balise13 = bal13;
             balise14 = bal14;
-
         }
 
         #region Fields 

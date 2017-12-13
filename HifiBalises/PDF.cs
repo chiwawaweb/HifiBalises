@@ -7,6 +7,7 @@ using System.Net.Mail;
 using System.Net.Mime;
 using System.Threading;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace HifiBalises
 {
@@ -69,6 +70,44 @@ namespace HifiBalises
         private void BtnPrint_Click(object sender, EventArgs e)
         {
             PdfBalises.printWithDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            testPdf();
+        }
+
+        private void testPdf()
+        {
+            using (MemoryStream myMemoryStream = new MemoryStream())
+            {
+                Document myDocument = new Document();
+                PdfWriter myPDFWriter = PdfWriter.GetInstance(myDocument, myMemoryStream);
+
+                myDocument.Open();
+
+                // Add to content to your PDF here... 
+                PdfPTable table = new PdfPTable(2);
+                PdfPCell header = new PdfPCell(new Phrase("Your Heading"));
+                header.Colspan = 2;
+                header.HorizontalAlignment = 1; //0=Left, 1=Centre, 2=Right
+                table.AddCell(header);
+                table.AddCell("ID: xxx");
+                myDocument.Add(table);
+                myDocument.Close();
+
+                byte[] content = myMemoryStream.ToArray();
+
+                // Write out PDF from memory stream. 
+                using (FileStream fs = File.Create("test.pdf"))
+                {
+                    fs.Write(content, 0, (int)content.Length);
+                }
+
+                
+
+                Process.Start("test.pdf");
+            }
         }
     }
 }

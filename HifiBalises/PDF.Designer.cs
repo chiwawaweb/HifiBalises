@@ -33,6 +33,7 @@
             this.PdfBalises = new AxAcroPDFLib.AxAcroPDF();
             this.BtnPrint = new System.Windows.Forms.Button();
             this.BtnClose = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.PdfBalises)).BeginInit();
             this.SuspendLayout();
             // 
@@ -67,15 +68,30 @@
             this.BtnClose.UseVisualStyleBackColor = true;
             this.BtnClose.Click += new System.EventHandler(this.BtnClose_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(146, 7);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(110, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Test";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Visible = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // PDF
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.BtnClose;
             this.ClientSize = new System.Drawing.Size(722, 550);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.BtnClose);
             this.Controls.Add(this.BtnPrint);
             this.Controls.Add(this.PdfBalises);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "PDF";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
@@ -92,5 +108,6 @@
         private AxAcroPDFLib.AxAcroPDF PdfBalises;
         private System.Windows.Forms.Button BtnPrint;
         private System.Windows.Forms.Button BtnClose;
+        private System.Windows.Forms.Button button1;
     }
 }
